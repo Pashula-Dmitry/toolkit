@@ -1,0 +1,19 @@
+.center {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 15px;
+}
+
+.btn {
+  padding: 20px;
+  font-size: 14px;
+}

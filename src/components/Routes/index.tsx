@@ -2,6 +2,7 @@ import React from 'react';
 import {useRoutes} from 'react-router-dom';
 import {Layout} from '../Layout';
 import {Users} from '../../pages/Users';
+import {Counter} from '../../pages/Counter';
 
 export const Routes: React.FC = () => {
 
@@ -15,7 +16,9 @@ export const Routes: React.FC = () => {
           index: true,
           element: <Users />,
         },
-        { path: "todos", element: <Users /> },
+        { path: "counter",
+          element: <Counter />,
+        },
       ],
     },
   ]);
